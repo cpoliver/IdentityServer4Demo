@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/cpoliver/Code/_vs/IAM.IDS.Quickstart/src/IdentityServer/IdentityServer.csproj": {}
+  },
+  "projects": {
+    "/Users/cpoliver/Code/_vs/IAM.IDS.Quickstart/src/IdentityServer/IdentityServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cpoliver/Code/_vs/IAM.IDS.Quickstart/src/IdentityServer/IdentityServer.csproj",
+        "projectName": "IdentityServer",
+        "projectPath": "/Users/cpoliver/Code/_vs/IAM.IDS.Quickstart/src/IdentityServer/IdentityServer.csproj",
+        "packagesPath": "/Users/cpoliver/.nuget/packages/",
+        "outputPath": "/Users/cpoliver/Code/_vs/IAM.IDS.Quickstart/src/IdentityServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cpoliver/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "IdentityServer4": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
